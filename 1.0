@@ -18,10 +18,10 @@ comment_ = input.string("str 1","Comment", group = "Expert Settings")
 //══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 //                     MT5 MESSAGE
 //══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
-long_entry_message = '{"password":"Michele","timestamp":"{{timenow}}","UsedID":"'+user_name+'","Openclose":"open","lots":"'+lot_size+'","direction":"buy","symbol":"'+tr_sym+'","takeprofitpips":"'+tp_pips+'","stoplosspips":"'+sl_pips+'","comments":"'+comment_+'"}'
-short_entry_message = '{"password":"Michele","timestamp":"{{timenow}}","UsedID":"'+user_name+'","Openclose":"open","lots":"'+lot_size+'","direction":"sell","symbol":"'+tr_sym+'","takeprofitpips":"'+tp_pips+'","stoplosspips":"'+sl_pips+'","comments":"'+comment_+'"}'
-long_exit_message = '{"password":"Michele","UsedID":"'+user_name+'","Openclose":"close","lots":"'+lot_size+'","direction":"buy","symbol":"'+tr_sym+'","comments":"'+comment_+'"}'
-short_exit_message = '{"password":"Michele","UsedID":"'+user_name+'","Openclose":"close","lots":"'+lot_size+'","direction":"sell","symbol":"'+tr_sym+'","comments":"'+comment_+'"}'
+long_entry_message = '{"password":"Yourpasshere","timestamp":"{{timenow}}","UsedID":"'+user_name+'","Openclose":"open","lots":"'+lot_size+'","direction":"buy","symbol":"'+tr_sym+'","takeprofitpips":"'+tp_pips+'","stoplosspips":"'+sl_pips+'","comments":"'+comment_+'"}'
+short_entry_message = '{"password":"Yourpasshere","timestamp":"{{timenow}}","UsedID":"'+user_name+'","Openclose":"open","lots":"'+lot_size+'","direction":"sell","symbol":"'+tr_sym+'","takeprofitpips":"'+tp_pips+'","stoplosspips":"'+sl_pips+'","comments":"'+comment_+'"}'
+long_exit_message = '{"password":"Yourpasshere","UsedID":"'+user_name+'","Openclose":"close","lots":"'+lot_size+'","direction":"buy","symbol":"'+tr_sym+'","comments":"'+comment_+'"}'
+short_exit_message = '{"password":"Yourpasshere","UsedID":"'+user_name+'","Openclose":"close","lots":"'+lot_size+'","direction":"sell","symbol":"'+tr_sym+'","comments":"'+comment_+'"}'
 
 //══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 //                     SESSION TIMING INPUT
